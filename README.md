@@ -5,9 +5,9 @@ $ flume-ng agent -n agent-from -f agent-from.properties -Djava.security.auth.log
 
 jaas.conf:
 
-KafkaClient {
-com.sun.security.auth.module.Krb5LoginModule required
-useKeyTab=true
-keyTab="/etc/conf/kafka/kafka.keytab"
-principal="kafka/brxptolnxslp005.xpto.sl@HADOOP.PRD.XPTO";
-};
+KafkaClient {<br>
+com.sun.security.auth.module.Krb5LoginModule required<br>
+useKeyTab=true<br>
+keyTab="/etc/conf/kafka/kafka.keytab"<br>
+principal="kafka/brxptolnxslp005.xpto.sl@HADOOP.PRD.XPTO";<br>
+};<br>
